@@ -1,3 +1,4 @@
+from jsonschema import ValidationError
 from rest_framework import serializers
 from .models import AppUser
 from django.contrib.auth import get_user_model, authenticate

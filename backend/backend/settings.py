@@ -41,6 +41,7 @@ CORS_ALLOW_CREDENTIALS = True
 INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
+    'model_api',
     'api.apps.UserApiConfig',
     'rest_framework_simplejwt',
     'django.contrib.admin',
